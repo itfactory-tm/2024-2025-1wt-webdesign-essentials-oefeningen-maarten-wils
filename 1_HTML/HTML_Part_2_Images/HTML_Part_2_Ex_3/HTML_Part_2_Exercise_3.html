@@ -3,22 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
+
     <title>Scalable Vector Graphics</title>
 </head>
 
 <body>
+<header>
+    <h1 style="display: flex; align-items: center;">
+        <svg width="100" height="60" style="margin-right: -20px;">
+            <!-- First square -->
+            <rect x="0" y="15" width="20" height="20" fill="#e0c01d"/>
+            <!-- Second square -->
+            <rect x="20" y="15" width="20" height="20" fill="#23a0ce"/>
+            <!-- Triangle (Arrowhead) -->
+            <polygon points="40,10 40,40 60,25" fill="#23a0ce"/>
+        </svg>
+        Scalable Vector Graphics
+    </h1>
+    <hr/>
+</header>
 
-    <h1>Scalable Vector Graphics</h1>
+<p>With very simple shapes you can code your own images.</p>
+<h2>Scrabble</h2>
 
-    <p>With very simple shapes you can code your own images.</p>
+<svg width="40" height="40">
+    <rect x="0" y="0" width="40" height="40" fill="#e0c01d"/>
+    <rect x="10" y="10" width="20" height="6" fill="#254250"/>
+    <rect x="17" y="16" width="6" height="15" fill="#254250"/>
+</svg>
 
-    <h2>Scrabble</h2>
+<h2>Sunrise</h2>
 
-    <h2>Sunrise</h2>
+<svg width="60" height="40">
+    <rect x="0" y="0" width="60" height="40" fill="#23a0ce"/>
+    <circle cx="30" cy="40" r="20" fill="#e0c01d"></circle>
 
-    <h2>Shorts</h2>
+</svg>
 
-    <p>Don't feel like coding much? You might find images on sites with royalty free photos.</p>
+<h2>Shorts</h2>
+<svg width="40" height="35">
+    <rect x="0" y="0" width="40" height="5" fill="#e0c01d"/>
+    <rect x="0" y="5" width="40" height="30" fill="#254250 "/>
+    <circle cx="0" cy="40" r="17" fill="white"></circle>
+    <circle cx="40" cy="40" r="17" fill="white"></circle>
+</svg>
+
+<p>Don't feel like coding much? You might find images on sites with royalty free photos.</p>
+<img src="end.jpg" alt="end">
 
 </body>
 
