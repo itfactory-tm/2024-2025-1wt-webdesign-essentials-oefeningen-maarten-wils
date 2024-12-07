@@ -4,57 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <title>T-shirts for you</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Looking for a personalized T-shirt? Shop here!">
+    <link rel="stylesheet" href="CSS_Part_1_Exercise_1.css">
 </head>
 
-<!-- code is not valid and incomplete, correct first -->
-
 <body>
-    <h1>T-shirts for you</h1>
-    <p>Looking for a personalized T-shirt? Shop here!</p>
+<h1>T-shirts for you</h1>
+<p>Looking for a personalized T-shirt? Shop here!</p>
+<svg height="160" width="180">
+    <!-- First T-shirt -->
+    <rect x="10" y="10" width="160" height="140" fill="black"/>
+    <rect x="10" y="50" width="30" height="130" fill="#ccc"/>
+    <rect x="140" y="50" width="400" height="130" fill="#ccc"/>
+    <circle cx="90" cy="0" r="20" fill="#ccc"/>
+</svg>
 
-    <h2>Basic cotton T-shirts</h2>
-    <p>You can order black T-shirts with print or white T-shirts with print. Creating custom printed personalized T-shirts is easy in our design studio!</p>
+<svg height="160" width="180">
+    <!-- Second T-shirt -->
+    <rect x="10" y="10" width="160" height="140" fill="white"/>
+    <rect x="10" y="50" width="30" height="130" fill="#ccc"/>
+    <rect x="140" y="50" width="400" height="130" fill="#ccc"/>
+    <circle cx="90" cy="0" r="20" fill="#ccc"/>
+</svg>
 
-    <h2> Choose colors wisely</h2>
+<h2>Basic cotton T-shirts</h2>
+<p>You can order black T-shirts with print or white T-shirts with print. Creating custom printed personalized T-shirts
+    is easy in our design studio!</p>
 
-    White text on a black T-shirt looks fine
-    Black text on a white T-shirt is stylish
-    Avoid red text on a black T-shirt (poor contrast)
 
-    <h2>Quotes & prices</h2>
+<h2> Choose colors wisely</h2>
+<ul>
+    <li>White text on a black T-shirt looks fine</li>
+    <li>Black text on a white T-shirt is stylish</li>
+    <li>Avoid red text on a black T-shirt (poor contrast)</li>
+</ul>
+<figure>
+    <img src="white-red-black.jpg" alt="picture with white, red and black">
+    <figcaption>Choose colors wisely</figcaption>
+</figure>
+<h2>Quotes & prices</h2>
 
-    <table>
-        <tr>
-            <th>Design</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>Laziness is a programmers main virtue...</td>
-            <td>€11</td>
-        </tr>
-        <tr>
-            <td>You are the CSS to my HTML</td>
-            <td>€16</td>
-        </tr>
-        <tr>
-            <td>i <3 css</td> <td>€12</td>
-        </tr>
-        <tr>
-            <td>comic sans criminal</td>
-            <td>€19</td>
-        </tr>
-        <tr>
-            <td>
-                </week>
-                <weekend>
-            </td>
-            <td>€10</td>
-        </tr>
-        <tr>
-            <td>roses are #ff0000 <br> violets are #0000ff</td>
-            <td>€14</td>
-        </tr>
-    </table>
+<table>
+    <tr>
+        <th>Design</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td class="td1"><em>Laziness</em> is a programmers main virtue...</td>
+        <td>€11</td>
+    </tr>
+    <tr>
+        <td class="td2">You are the <span class="underline">CSS</span> to my <span class="underline">HTML</span></td>
+        <td>€16</td>
+    </tr>
+    <tr>
+        <td class="td3">i <span class="red-text">&lt;3</span> css</td>
+        <td>€12</td>
+    </tr>
+    <tr>
+        <td class="td4">comic sans criminal</td>
+        <td>€19</td>
+    </tr>
+    <tr>
+        <td class="td5">
+            &lt;/week&gt;
+            &lt;weekend&gt;
+        </td>
+        <td>€10</td>
+    </tr>
+    <tr>
+        <td class="td6">roses are #ff0000 <br> violets are #0000ff</td>
+        <td>€14</td>
+    </tr>
+</table>
 
 
 </body>

@@ -13,3 +13,65 @@ td {
     border-collapse: collapse;
     padding: 20px;
 }
+
+th {
+    font-size: 2rem;
+}
+
+/* First td tag: Verdana, small caps, font size 18px, 1 word in italic */
+.td1 {
+    font-family: Verdana, sans-serif;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+.td1 em {
+    font-style: italic;
+}
+
+/* Second td tag: Arial, bold, 2 words underlined */
+.td2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.td2 .underline {
+    text-decoration: underline;
+}
+
+/* Third td tag: Times New Roman, font size 3rem, uppercase, bold, <3 in red, centered */
+.td3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+/* Red text */
+.red-text {
+    color: red;
+}
+
+/* Fourth td tag: Comic Sans MS, bold, font size 2rem */
+.td4 {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/* Fifth td tag: Monospace, font size 1.5rem, centered */
+.td5 {
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Sixth td tag: line height 30px, font size 20px, aligned to the right */
+.td6 {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: right;
+}
