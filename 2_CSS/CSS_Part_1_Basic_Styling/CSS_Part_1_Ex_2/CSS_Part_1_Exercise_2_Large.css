@@ -1,1 +1,37 @@
 /* large screens */
+
+body {
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: blue;
+    color: white;
+
+}
+
+h1 {
+    color: black;
+    background-color: yellow;
+}
+
+figure {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+figcaption {
+    background-color: white;
+    color: blue;
+    font-variant: small-caps;
+}
+
+a {
+    color: white;
+    background-color: red;
+}
+
+a:hover {
+    color: red;
+    background-color: white;
+}
