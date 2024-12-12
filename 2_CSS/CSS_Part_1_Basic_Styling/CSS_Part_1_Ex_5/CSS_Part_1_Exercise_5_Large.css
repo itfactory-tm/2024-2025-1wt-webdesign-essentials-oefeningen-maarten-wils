@@ -1,1 +1,41 @@
 /* large screens */
+
+body {
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-align: left;
+}
+
+.advantages {
+    list-style-image: url('plus.png');
+}
+
+.advantages .nested {
+    list-style-image: url('plusplus.png');
+}
+
+.disadvantages {
+    list-style-image: url('Min.png');
+}
+
+/* Nested disadvantages list items */
+.disadvantages .nested {
+    list-style-image: url('minmin.png');
+}
+
+th, td {
+    width: 400px; /* Column width */
+}
+
+table, th, td {
+    border: 5px solid #fa6432;
+}
+
+caption {
+    caption-side: bottom;
+    background-color: #00283c;
+    color: white;
+    font-size: 1.2rem;
+}
