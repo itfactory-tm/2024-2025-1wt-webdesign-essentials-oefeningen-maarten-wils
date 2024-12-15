@@ -7,4 +7,50 @@ body {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), transparent 1px),
         linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent 1px);
+    border: 1rem solid black;
+    padding: 0;
+    margin: 1rem;
+    text-align: center;
 }
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 1rem solid black;
+    padding: 1rem;
+    margin: 0;
+    background-color: #CCC;
+}
+
+h2 {
+    visibility: hidden;
+    margin: 0;
+}
+
+footer {
+    visibility: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    border-top: 1rem solid black;
+    padding: 1rem;
+    margin: 0;
+    background-color: #CCC;
+}
+
+img {
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0.5rem 0.5rem 0.6rem rgba(150, 150, 150, 0.5);
+    padding: 2rem;
+    margin: 2rem;
+    margin-top: 1rem;
+    border: 0.5rem solid black;
+
+}
+

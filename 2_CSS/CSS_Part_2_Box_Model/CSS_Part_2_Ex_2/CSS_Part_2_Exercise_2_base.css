@@ -1,1 +1,51 @@
 /*base*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #d7e7cd;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 4rem 1rem 1rem;
+    border-bottom: 0.5rem solid black;
+    background-color: white;
+}
+
+h2 {
+    text-align: right;
+    text-transform: lowercase;
+    margin-right: 2rem;
+}
+
+p {
+    margin: 1rem;
+}
+
+img {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0.5rem 0.5rem 0.6rem rgba(150, 150, 150, 0.5);
+    padding: 1rem;
+    padding-bottom: 4rem;
+    margin: 1rem;
+}
+
+footer {
+    visibility: hidden;
+}
+
+
+
