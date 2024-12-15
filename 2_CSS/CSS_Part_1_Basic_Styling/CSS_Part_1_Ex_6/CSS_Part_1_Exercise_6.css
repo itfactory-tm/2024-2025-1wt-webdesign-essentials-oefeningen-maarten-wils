@@ -47,8 +47,8 @@ td, th {
 
 #layout3 {
     text-align: left;
-    border: 1px solid black; /* Outer border */
-    box-shadow: 2px 2px 2px rgba(150, 150, 150, 0.6); /* Box shadow */
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(150, 150, 150, 0.6);
     border-collapse: collapse;
 }
 
