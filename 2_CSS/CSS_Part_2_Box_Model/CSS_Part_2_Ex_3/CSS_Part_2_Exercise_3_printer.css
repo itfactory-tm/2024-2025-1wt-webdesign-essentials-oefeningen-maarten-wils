@@ -1,1 +1,8 @@
 /* printer */
+header {
+    visibility: hidden;
+}
+
+.business-card {
+    display: none;
+}

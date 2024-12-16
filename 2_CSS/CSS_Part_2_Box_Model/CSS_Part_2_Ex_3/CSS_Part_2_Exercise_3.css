@@ -1,1 +1,149 @@
 /* Main styling */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #fa6432;
+    color: white;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #00081d;
+}
+
+header {
+    background-color: #fa6432;
+    color: white;
+    text-align: center;
+}
+
+article {
+    margin: 50px 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+h1 {
+    line-height: 200px;
+    font-size: 2.5em;
+    border-bottom: #00283c 9px solid;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+section h2 {
+    margin-bottom: 1em;
+}
+
+h3 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+ul {
+    padding-left: 3em;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    font-weight: bold;
+    color: #00283c;
+    background: inherit;
+}
+
+ul a {
+    text-decoration: none;
+    border-bottom: #fa6432 3px solid;
+}
+
+ul a:hover {
+    color: #fa6432;
+    background: inherit;
+    border-bottom: #00283c;
+}
+
+.fa-building-columns-blue {
+    color: #00283c;
+}
+
+.fa-building-columns-orange {
+    color: #fa6432;
+}
+
+.fa-swatchbook {
+    color: #fa6432 ;
+}
+
+.fa-palette {
+    color: #fa6432;
+}
+
+.fa-font {
+    color: #fa6432;
+}
+
+.fa-chalkboard-user {
+    color: #00283c;
+}
+
+.fa-mobile-retro {
+    color: #00283c;
+}
+
+.fa-envelope {
+    color: #00283c;
+}
+
+.bottom_orange{
+    color: #fa6432;
+}
+
+.fa6432 {
+    background-color: #fa6432;
+    color: white;
+}
+
+.c00283c {
+    background-color: #00283c;
+    color: white;
+}
+
+.business-card {
+    padding: 25px;
+    margin: 40px 0;
+    border-left: 5px solid #fa6432;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(100, 100, 100, 0.17);
+    position: relative;
+}
+
+.business-card .fa-building-columns {
+    position: absolute;
+    right: 25px;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
