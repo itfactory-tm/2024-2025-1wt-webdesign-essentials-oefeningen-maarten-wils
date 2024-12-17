@@ -29,3 +29,93 @@ ul {
 .container {
     padding: 2rem;
 }
+
+header {
+    background-color: black;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    text-shadow: 0 0 5px black;
+}
+
+footer {
+    background-color: black;
+    color: #ebb701;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    text-align: right;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    header {
+        background: url('../imgs/streetart.jpg') no-repeat center center/cover;
+        height: 300px;
+        clip-path: polygon(100% 0, 100% 60%, 13% 75%, 0 60%, 0 0);
+    }
+
+    header .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    footer {
+        clip-path: none;
+    }
+
+    h1 {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.2rem;
+        background: url('../imgs/streetart.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    h1 {
+        margin-top: 1rem;
+    }
+
+
+    header {
+        background-color: rgb(7, 80, 80);
+        background-image: none;
+    }
+
+    header .overlay {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .container-all {
+        max-width: 1000px;
+        margin: 0 auto;
+        background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+        color: white; /* White text */
+    }
+
+    .hidden-lg {
+        display: none;
+    }
+}
+
