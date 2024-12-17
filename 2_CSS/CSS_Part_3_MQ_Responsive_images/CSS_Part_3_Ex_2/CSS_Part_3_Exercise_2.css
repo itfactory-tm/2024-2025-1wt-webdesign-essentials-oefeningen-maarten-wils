@@ -27,3 +27,63 @@ figure {
 li {
     margin-left: 15px;
 }
+
+div, header {
+    max-width: 1000px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-top: 10px solid #009cab;
+    border-bottom: 10px solid #009cab;
+}
+
+header {
+    background-color: #faead5;
+}
+
+.center {
+    text-align: center;
+}
+
+p img {
+    width: 160px;
+    height: 180px;
+    object-fit: cover;
+    object-position: left;
+}
+
+figure {
+    background-color: #eee;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #666;
+    text-align: right;
+}
+
+@media screen and (min-width: 700px) {
+    p img {
+        max-width: 45%;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    header {
+        background-image: url('./images/intro.jpg');
+        background-position: bottom;
+        background-size: cover;
+        height: 300px;
+    }
+
+    ul {
+        margin-left: 50px;
+        list-style-image: url('./images/pencil.png');
+    }
+}
