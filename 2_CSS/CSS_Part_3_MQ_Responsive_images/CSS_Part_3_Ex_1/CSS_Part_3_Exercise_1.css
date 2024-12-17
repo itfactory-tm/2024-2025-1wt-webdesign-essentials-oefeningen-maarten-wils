@@ -1,1 +1,163 @@
 /* Part 3 Ex 1 */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+div, a, p {
+    padding: 15px;
+}
+
+span, a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #009cab;
+
+}
+
+footer p:last-child {
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    .hideonsmall {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        background-color: #ccc;
+        background-image: url("medium.png");
+        background-position: 10px 0;
+        background-repeat: repeat-y;
+        color: #000;
+        font-size: 1.2rem;
+    }
+
+    div {
+        max-width: 700px;
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 2px solid #000;
+        border-radius: 20px;
+    }
+
+    h1, h2, h3 {
+        margin-left: 15px;
+
+    }
+
+    .hideonmedium {
+        display: none;
+    }
+
+    span {
+        background-color: transparent;
+        border: none;
+        text-align: right;
+    }
+
+    .showonmedium{
+        display: block;
+        background-color: #eee;
+        border-left: black 2px solid;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    span {
+        background-color: transparent !important;
+        border: none !important;
+        text-align: right;
+    }
+
+    .showonlarge {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #009cab;
+
+    }
+
+    div {
+        max-width: 900px;
+        background-color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 2px solid #000;
+        border-radius: 20px;
+        box-shadow:  2px 2px 2px rgba(25, 25, 25, 0.8);
+        background-image: url('large.png');
+        background-position: 775px 30px;
+        background-repeat: no-repeat;
+    }
+
+    .hideonlarge {
+        display: none;
+    }
+
+    .showonlarge {
+        display: block;
+        background-color: #ecfafb;
+        border-left: #009cab 2px solid;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+
+    span {
+        margin-top: 15px !important;
+        background-color: transparent !important;
+        border: none !important;
+        text-align: right;
+    }
+}
+
+@media print {
+    .showonprint {
+        display: block;
+    }
+
+    .hideonprint {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
