@@ -16,64 +16,73 @@
     <link rel="stylesheet" href="styles/CSS_Part_6_Exercise_4.css">
 </head>
 
+
 <body>
-    <div>
-        <article>
-            <h1>Our staff <span>Small</span><span>Medium</span><span>Large</span></h1>
+<div class="container mt-1 p-1 p-md-4 p-lg-5">
+    <article>
+        <h1 class="w-100 mb-0 mb-lg-5">Our staff
+            <span class="d-inline d-md-none">Small</span>
+            <span class="d-none d-md-inline d-lg-none">Medium</span>
+            <span class="d-none d-lg-inline">Large</span>
+        </h1>
 
-            <section>
+        <div class="row">
+            <section class="col-12 col-lg-4">
                 <h2>Alexia</h2>
-
-                <div>
-                    <img src="images/person1.png" alt="Alexia">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 col-lg-12">
+                        <img src="images/person1.png" alt="Alexia" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12">
+                        <p class="pb-lg-3 pt-lg-1">I'm <span>Alexia</span></p>
+                        <p>Contact me for:</p>
+                        <ul class="list-unstyled p-lg-0 m-lg-0">
+                            <li>Drupal</li>
+                            <li>Wordpress</li>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
                 </div>
-
-                <p>I'm <span>Alexia</span></p>
-                <p>Contact me for:</p>
-                <ul>
-                    <li>Drupal</li>
-                    <li>Wordpress</li>
-                    <li>Photoshop</li>
-                </ul>
-
             </section>
 
-            <section>
+            <section class="col-12 col-lg-4">
                 <h2>Betty</h2>
-
-                <div>
-                    <img src="images/person2.png" alt="Betty">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 order-md-last col-lg-12 order-lg-first">
+                        <img src="images/person2.png" alt="Betty" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-3 offset-md-3">
+                        <p class="pb-lg-3 pt-lg-1">I'm <span>Betty</span></p>
+                        <p>I'm good at:</p>
+                        <ul class="list-unstyled p-lg-0 m-lg-0">
+                            <li>Docker</li>
+                            <li>Go</li>
+                            <li>Linux</li>
+                        </ul>
+                    </div>
                 </div>
-
-                <p>I'm <span>Betty</span></p>
-                <p>I'm good at:</p>
-                <ul>
-                    <li>Docker</li>
-                    <li>Go</li>
-                    <li>Linux</li>
-                </ul>
-
             </section>
 
-            <section>
+            <section class="col-12 col-lg-4">
                 <h2>Chris</h2>
-
-                <div>
-                    <img src="images/person3.png" alt="Chris">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 col-lg-12">
+                        <img src="images/person3.png" alt="Chris" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12">
+                        <p class="pb-lg-3 pt-lg-1">I'm <span>Chris</span></p>
+                        <p>This is what I prefer to do:</p>
+                        <ul class="list-unstyled p-lg-0 m-lg-0">
+                            <li>Laravel</li>
+                            <li>Cordova</li>
+                            <li>jQuery</li>
+                        </ul>
+                    </div>
                 </div>
-
-                <p>I'm <span>Chris</span></p>
-                <p>This is what I prefer to do:</p>
-                <ul>
-                    <li>Laravel</li>
-                    <li>Cordova</li>
-                    <li>jQuery</li>
-                </ul>
-
             </section>
-        </article>
-    </div>
+        </div>
+    </article>
+</div>
 
 </body>
-
 </html>
